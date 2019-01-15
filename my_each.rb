@@ -1,3 +1,6 @@
 def my_each(array, element)
-  collection = []
+  i=0
+  array(element) do |i|
+    puts "[i]"
+  
 end
